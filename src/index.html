@@ -1,12 +1,42 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Memory Match</title>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MEMORAMA MEGAMENTE</title>
     <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+</head>
+<body>
+    <div id="bienvenida-juego" data-testid="bienvenida-juego">
+        <h1>"BIENVENIDO AL JUEGO DE MEMOMANIA"</h1>
+        <label for="nombre-usuario">INGRESA TU NOMBRE:</label>
+        <input type="text" id="nombre-usuario" data-testid="nombre-usuario" required>
+        <button id="boton-inicio" data-testid="boton-inicio">Iniciar Juego</button>
+    </div>
+
+    <div id="jugar" data-testid="jugar" style="display: none;">
+        <h2>Hola <span id="suerte"></span>, ¡BUENA SUERTE!</h2>
+        <button id="reiniciar-boton" data-testid="reiniciar-boton" style="display: none;">Reiniciar Juego</button>
+        
+        <div class="informar-juego">
+            <p>Intentos: <span id="intentos" data-testid="intentos">0</span></p>
+            <p>Tiempo: <span id="tiempo" data-testid="tiempo">00:00</span></p>
+        </div>
+
+        <div id="tarjetas" class="contenedor-cartas" data-testid="tarjetas"></div>
+        <div id="error" style="display:none; color:red;"></div>
+
+    </div>
+
+    <div id="final-juego" data-testid="final-juego" style="display: none;">
+        <h2>¡Felicidades <span id="nombre-jugador-final"></span>!</h2>
+        <p>Completaste el juego en <span id="total-intentos"></span> intentos y <span id="total-tiempo"></span> de tiempo.</p>
+        <button id="boton-juego-nuevo" data-testid="boton-juego-nuevo">Jugar de Nuevo</button>
+    </div>
+
+    <footer>Creado por Dinah Gomez</footer>
+    
+    <script src="main.js" type="module"></script> 
+</body>
 </html>
