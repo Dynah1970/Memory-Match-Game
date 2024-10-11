@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "nombre": "Megamente",
+      "imagen": "https://tse4.mm.bing.net/th?id=OIP.e1v5twCQ9zIg6oGDcuvGYgHaHL&pid=Api&P=0&h=180"
+    },
+    {
+      "id": 2,
+      "nombre": "Megamente Bebé",
+      "imagen": "https://tse2.mm.bing.net/th?id=OIP.8W1PTZ9qMF4el5Mv0a9rPgAAAA&pid=Api&P=0&h=180",
+      "bgColor": "#339933"
+    },
+    {
+      "id": 3,
+      "nombre": "Roxanne Ritchie",
+      "imagen": "https://tse3.mm.bing.net/th?id=OIP.DJlQkB86skwAgCAmkf4LHQHaK8&pid=Api&P=0&h=180",
+      "bgColor": "#F05032"
+    },
+    {
+      "id": 4,
+      "nombre": "Metro Man",
+      "imagen": "https://tse2.mm.bing.net/th?id=OIP.rprJZwlHu0mX2kzUynmobQAAAA&pid=Api&P=0&h=180",
+      "bgColor": "#F05032"
+    },
+    {
+      "id": 5,
+      "nombre": "Metro Man Bebé",
+      "imagen": "https://tse2.mm.bing.net/th?id=OIP.PhJ8GtPTRvMzOcjSloyzhAHaEo&pid=Api&P=0&h=180",
+      "bgColor": "#F05032"
+    },
+    {
+      "id": 6,
+      "nombre": "Padre de Megamente",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKXDEYiTmuIInLgL26EUom_D2723mzCVDvNg&s",
+      "bgColor": "#1572B6"
+    },
+    {
+      "id": 7,
+      "nombre": "Alcalde de Metrociudad",
+      "imagen": "https://tse2.mm.bing.net/th?id=OIP.7FEWh4tUnSSLFFyZ9aRtKgHaHW&pid=Api&P=0&h=180",
+      "bgColor": "#1572B6"
+    },
+    {
+      "id": 8,
+      "nombre": "Megamente y Roxanne",
+      "imagen": "https://tse1.mm.bing.net/th?id=OIP.UAjaHfmuPMWxCptwoqBZTwAAAA&pid=Api&P=0&h=180",
+      "bgColor": "#FF4500"
+    },
+    {
+      "id": 9,
+      "nombre": "Space Dad",
+      "imagen": "https://tse4.mm.bing.net/th?id=OIP.Ud5j8V0SLvz0cvT9sPulxgHaD2&pid=Api&P=0&h=180",
+      "bgColor": "#FF4500"
+    },
+    {
+      "id": 10,
+      "nombre": "Hal Stewart (Reportero)",
+      "imagen": "https://tse4.mm.bing.net/th?id=OIP.WKnL1Hxmwhu_xUp-x01t-gHaG_&pid=Api&P=0&h=180",
+      "bgColor": "#FF8C00"
+    },
+    {
+      "id": 11,
+      "nombre": "Hal Stewart (Superhéroe)",
+      "imagen": "https://tse2.mm.bing.net/th?id=OIP.r5XGs5ZwiF0-Dh4ICOjrQwHaEo&pid=Api&P=0&h=180",
+      "bgColor": "#FF8C00"
+    },
+    {
+      "id": 12,
+      "nombre": "Guardia Megamente",
+      "imagen": "https://tse2.mm.bing.net/th?id=OIP.5l-NidxYrT2E1yEn5xGG5QAAAA&pid=Api&P=0&h=180",
+      "bgColor": "#4682B4"
+    },
+    {
+      "id": 13,
+      "nombre": "Museo de Metro Man",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqaXHZQRPlHdbfKutxakLmZ1CiWMq5HY2I7Q&s",
+      "bgColor": "#B22222"
+    },
+    {
+      "id": 14,
+      "nombre": "Bernard",
+      "imagen": "https://tse3.mm.bing.net/th?id=OIP.tnt3e_phekhqfDyr1HKaEwHaKN&pid=Api&P=0&h=180",
+      "bgColor": "#D2691E"
+    },
+    {
+      "id": 15,
+      "nombre": "Nanobot",
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV1DmxMMsL42h9k-DYjowlJkiupPFd2BWjOQ&s",
+      "bgColor": "#A9A9A9"
+    },
+    {
+      "id": 16,
+      "nombre": "Servil",
+      "imagen": "https://tse4.mm.bing.net/th?id=OIP.UbK5OtQ3k27ieGu-70NezgHaDH&pid=Api&P=0&h=180",
+      "bgColor": "#A9A9A9"
+    }
+    
+  ]
+  
