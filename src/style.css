@@ -1,0 +1,98 @@
+/* General */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1c1f26; /* Fondo oscuro para resaltar */
+    text-align: center;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+/* Título */
+h1, h2 {
+    color: #00aaff; /* Azul claro inspirado en Megamente */
+    text-shadow: 2px 2px 4px #000; /* Sombra para darle profundidad al texto */
+}
+
+.informar-juego {
+    margin: 20px 0;
+}
+
+/* Botón de inicio */
+#boton-inicio {
+    background-color: #ffdd00; /* Amarillo brillante */
+    border: none;
+    padding: 10px 20px;
+    color: #1c1f26; /* Color de texto oscuro para contraste */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#boton-inicio:hover {
+    background-color: #ffd700; /* Un tono más oscuro de amarillo al pasar el cursor */
+}
+
+/* Bienvenida personalizada */
+#bienvenida-juego {
+    background-color: #00aaff; /* Fondo azul claro inspirado en Megamente */
+    color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* Sombra para darle estilo */
+    display: inline-block;
+    margin-bottom: 20px;
+}
+
+/* Tarjetas */
+#tarjetas {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr); /* Ocho columnas */
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #73a1e0; /* Fondo amarillo tenue */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.tarjeta {
+    width: 100px;
+    height: 150px;
+    perspective: 1000px;
+    position: relative;
+    cursor: pointer;
+}
+
+.tarjeta img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    position: absolute;
+    transition: transform 0.5s;
+}
+
+.frente {
+    backface-visibility: hidden;
+}
+
+.dorso {
+    transform: rotateY(180deg);
+    backface-visibility: hidden;
+}
+
+.flipped .frente {
+    transform: rotateY(180deg);
+}
+
+.flipped .dorso {
+    transform: rotateY(0);
+}
+
+footer {
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #777;
+}
