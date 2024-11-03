@@ -8,8 +8,12 @@
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div id="bienvenida-juego" data-testid="bienvenida-juego">
+    <header>
         <h1>"BIENVENIDO AL JUEGO DE MEMOMANIA"</h1>
+    </header>
+    <main>
+    <div id="bienvenida-juego" data-testid="bienvenida-juego">
+        
         <label for="nombre-usuario">INGRESA TU NOMBRE:</label>
         <input type="text" id="nombre-usuario" data-testid="nombre-usuario" required>
         <button id="boton-inicio" data-testid="boton-inicio">Iniciar Juego</button>
@@ -34,9 +38,12 @@
         <p>Completaste el juego en <span id="total-intentos"></span> intentos y <span id="total-tiempo"></span> de tiempo.</p>
         <button id="boton-juego-nuevo" data-testid="boton-juego-nuevo">Jugar de Nuevo</button>
     </div>
-
-    <footer>Creado derechos reservados  por Dynah Gomez</footer>
+        
+    </main>
     
     <script src="main.js" type="module"></script> 
+
 </body>
+
+<footer>Creado derechos reservados  por Dynah Gomez</footer>
 </html>
